@@ -1,0 +1,22 @@
+{
+  "name": "vugg",
+  "version": "1.0.0",
+  "description": "conniebot clone for matrix",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exitcrash --ignore *.sqlite -x ts-node index.ts"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "matrix-bot-sdk": "^0.1.16",
+    "@types/js-yaml": "^3.11.2",
+    "@types/node": "^10.12.11",
+    "@types/xregexp": "^3.0.29",
+    "js-yaml": "^3.12.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1",
+    "xregexp": "^4.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
