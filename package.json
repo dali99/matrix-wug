@@ -9,7 +9,7 @@
   "author": "Daniel",
   "license": "ISC",
   "dependencies": {
-    "matrix-bot-sdk": "^0.1.16",
+    "matrix-bot-sdk": "^0.3.2",
     "@types/js-yaml": "^3.11.2",
     "@types/node": "^10.12.11",
     "@types/xregexp": "^3.0.29",
