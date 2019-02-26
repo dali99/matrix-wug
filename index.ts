@@ -1,11 +1,14 @@
 import x2i from "./x2i";
 
-const config = require("./config.json");
+// const config = require("./config.json");
 
 const MatrixClient = require("matrix-bot-sdk").MatrixClient;
 const AutojoinRoomsMixin = require("matrix-bot-sdk").AutojoinRoomsMixin;
 
-const client = new MatrixClient(config.homeserver, config.token);
+const homeserver = ( /*config.homeserver || process.env.WUG_HOMESERVER ||*/ process.env.MATRIXDEV_HOMESERVER);
+const token = (/* config.token || process.env.WUG_TOKEN||*/ process.env.MATRIXDEV_TOKEN);
+
+const client = new MatrixClient(homeserver, token);
 AutojoinRoomsMixin.setupOnClient(client);
 
 const myself = client.getUserId()
