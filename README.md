@@ -1,5 +1,5 @@
 # About
-This is a bot for converting x- or z-sampa to IPA, or converting a custom ascii notation to standard PIE notation.
+This is a bot for converting x- or z-sampa to IPA, or converting a custom ascii notation to standard PIE notation. Useful for e.g. linguistics and conlanging, and for creating powerful unicode emoticons.
 
 Simply type your ascii inside // or [] with a prefixed x, z or p for x-sampa, z-sampa and PIE-notation respectively.  
 For instance:  
