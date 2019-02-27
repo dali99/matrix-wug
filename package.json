@@ -1,7 +1,7 @@
 {
   "name": "vugg",
-  "version": "1.0.0",
-  "description": "conniebot clone for matrix",
+  "version": "1.1.0",
+  "description": "Language bot for matrix",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exitcrash --ignore *.sqlite -x ts-node index.ts"
