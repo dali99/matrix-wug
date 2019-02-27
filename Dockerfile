@@ -4,6 +4,6 @@ WORKDIR /server
 COPY . /server
 
 RUN npm install
-RUN mkdir build && npm build
+RUN mkdir build && npm run build
 
 CMD [ "npm", "start" ]
