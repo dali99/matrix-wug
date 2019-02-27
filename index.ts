@@ -1,4 +1,4 @@
-const version = "1.1.0";
+const version = "1.1.1";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
