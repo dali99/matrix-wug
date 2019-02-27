@@ -1,9 +1,5 @@
 image: node:10-slim
 
-stages:
-  - build
-
 build:
-  script:
   - npm install
   - npm build
