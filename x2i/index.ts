@@ -47,6 +47,9 @@ const matchType: { [key: string]: IMatchInstructions } = {
   z: {
     keys: readKeys("./x2i/z2i-keys.yaml"),
   },
+  i: {
+    keys: readKeys("./x2i/i-keys.yaml"),
+  },
 };
 
 /**
