@@ -1,4 +1,4 @@
-const version = "2.0.0";
+const version = "2.0.1";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -44,6 +44,8 @@ function help(roomId) {
     var message = `Hi I can help you translate X-SAMPA, Z-SAMPA to IPA, and transcribe into proto-indo european notation!
 Use (x/z/p) together with either / or [] as delimeters
 x/"hEloU/ z[or\` 5aIk DIz] p/mreghnom/ 😀
+
+I also can transcribe to Inuktitut Syllabics like this: i[tusaumaqattautijjutinik aulattijiit].
 
 Find my source at https://github.com/Dali99/matrix-wug`;
     
