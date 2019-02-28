@@ -20,8 +20,9 @@ For the PIE notation:
 * Palato-velars are marked with a following ' and x1, x2, x3 etc. yields the laryngeals, with x@ for the subscript a laryngeal, and xx for an unknown laryngeal.
 
 This is best learned by experimenting.
+Inuktitut Syllabics: https://en.wikipedia.org/wiki/Inuktitut_syllabics
 
-These conversions were originally taken from [xsduan/conniebot](https://github.com/xsduan/conniebot). But have later divirged a bit.
+These conversions were originally taken from [xsduan/conniebot](https://github.com/xsduan/conniebot), and the discord bot Tuugaalikkuluk (thanks!) But have later divirged a bit.
 
 To use the bot I run an instance at [@wug:dodsorf.as](https://matrix.to/#/@wug:dodsorf.as), you can invite it to a room or DM it to use the converter. Or you can read the setup instructions below to host your own!
 
