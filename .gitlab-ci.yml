@@ -1,0 +1,6 @@
+image: node:10-slim
+
+build:
+  script:
+  - npm install
+  - npm build

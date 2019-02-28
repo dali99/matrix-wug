@@ -1,0 +1,359 @@
+---
+- raw:
+  - "[nN][n][g][iI][iI]"
+  - "ᙲ"
+- raw:
+  - "[nN][n][g][uU][uU]"
+  - "ᙴ"
+- raw:
+  - "[nN][n][g][aA][aA]"
+  - "ᙶ"
+
+- raw:
+  - "[nN][gG][iI][iI]"
+  - "ᖐ"
+- raw:
+  - "[nN][gG][uU][uU]"
+  - "ᖒ"
+- raw:
+  - "[nN][gG][aA][aA]"
+  - "ᖔ"
+- raw:
+  - "[nN][n][g][iI]"
+  - "ᙱ"
+- raw:
+  - "[nN][n][g][uU]"
+  - "ᙳ"
+- raw:
+  - "[nN][n][g][aA]"
+  - "ᙵ"
+- raw:
+  - "[qQ][qQ][iI][iI]"
+  - "ᖅᑮ"
+- raw:
+  - "[qQ][qQ][uU][uU]"
+  - "ᖅᑰ"
+- raw:
+  - "[qQ][qQ][aA][aA]"
+  - "ᖅᑳ"
+
+- raw:
+  - "[nN][n][g]"
+  - "ᖖ"
+- raw:
+  - "[pP][iI][iI]"
+  - "ᐲ"
+- raw:
+  - "[pP][uU][uU]"
+  - "ᐴ"
+- raw:
+  - "[pP][aA][aA]"
+  - "ᐹ"
+- raw:
+  - "[tT][iI][iI]"
+  - "ᑏ"
+- raw:
+  - "[tT][uU][uU]"
+  - "ᑑ"
+- raw:
+  - "[tT][aA][aA]"
+  - "ᑖ"
+- raw:
+  - "[kK][iI][iI]"
+  - "ᑮ"
+- raw:
+  - "[kK][uU][uU]"
+  - "ᑰ"
+- raw:
+  - "[kK][aA][aA]"
+  - "ᑳ"
+- raw:
+  - "[gG][iI][iI]"
+  - "ᒌ"
+- raw:
+  - "[gG][uU][uU]"
+  - "ᒎ"
+- raw:
+  - "[gG][aA][aA]"
+  - "ᒑ"
+- raw:
+  - "[mM][iI][iI]"
+  - "ᒦ"
+- raw:
+  - "[mM][uU][uU]"
+  - "ᒨ"
+- raw:
+  - "[mM][aA][aA]"
+  - "ᒫ"
+- raw:
+  - "[nN][iI][iI]"
+  - "ᓃ"
+- raw:
+  - "[nN][uU][uU]"
+  - "ᓅ"
+- raw:
+  - "[nN][aA][aA]"
+  - "ᓈ"
+- raw:
+  - "[nN][gG][iI]"
+  - "ᖏ"
+- raw:
+  - "[nN][gG][uU]"
+  - "ᖑ"
+- raw:
+  - "[nN][gG][aA]"
+  - "ᖓ"
+- raw:
+  - "[sS][iI][iI]"
+  - "ᓰ"
+- raw:
+  - "[sS][uU][uU]"
+  - "ᓲ"
+- raw:
+  - "[sS][aA][aA]"
+  - "ᓵ"
+- raw:
+  - "[lL][iI][iI]"
+  - "ᓖ"
+- raw:
+  - "[lL][uU][uU]"
+  - "ᓘ"
+- raw:
+  - "[lL][aA][aA]"
+  - "ᓛ"
+- raw:
+  - "[jJyY][iI][iI]"
+  - "ᔩ"
+- raw:
+  - "[jJyY][uU][uU]"
+  - "ᔫ"
+- raw:
+  - "[jJyY][aA][aA]"
+  - "ᔮ"
+- raw:
+  - "[vV][iI][iI]"
+  - "ᕖ"
+- raw:
+  - "[vV][uU][uU]"
+  - "ᕘ"
+- raw:
+  - "[vV][aA][aA]"
+  - "ᕚ"
+- raw:
+  - "[rR][iI][iI]"
+  - "ᕇ"
+- raw:
+  - "[rR][uU][uU]"
+  - "ᕉ"
+- raw:
+  - "[rR][aA][aA]"
+  - "ᕌ"
+- raw:
+  - "[qQ][iI][iI]"
+  - "ᖀ"
+- raw:
+  - "[qQ][uU][uU]"
+  - "ᖂ"
+- raw:
+  - "[qQ][aA][aA]"
+  - "ᖄ"
+- raw:
+  - "[qQ][qQ][iI]"
+  - "ᖅᑭ"
+- raw:
+  - "[qQ][qQ][uU]"
+  - "ᖅᑯ"
+- raw:
+  - "[qQ][aA][aA]"
+  - "ᖅᑲ"
+- raw:
+  - "[łŁ&][iI][iI]"
+  - "ᖡ"
+- raw:
+  - "[łŁ&][uU][uU]"
+  - "ᖣ"
+- raw:
+  - "[łŁ&][aA][aA]"
+  - "ᖥ"
+
+- raw:
+  - "[iI][iI]"
+  - "ᐄ"
+- raw:
+  - "[uU][uU]"
+  - "ᐆ"
+- raw:
+  - "[aA][aA]"
+  - "ᐋ"
+- raw:
+  - "[pP][iI]"
+  - "ᐱ"
+- raw:
+  - "[pP][uU]"
+  - "ᐳ"
+- raw:
+  - "[pP][aA]"
+  - "ᐸ"
+- raw:
+  - "[tT][iI]"
+  - "ᑎ"
+- raw:
+  - "[tT][uU]"
+  - "ᑐ"
+- raw:
+  - "[tT][aA]"
+  - "ᑕ"
+- raw:
+  - "[kK][iI]"
+  - "ᑭ"
+- raw:
+  - "[kK][uU]"
+  - "ᑯ"
+- raw:
+  - "[kK][aA]"
+  - "ᑲ"
+- raw:
+  - "[gG][iI]"
+  - "ᒋ"
+- raw:
+  - "[gG][uU]"
+  - "ᒍ"
+- raw:
+  - "[gG][aA]"
+  - "ᒐ"
+- raw:
+  - "[mM][iI]"
+  - "ᒥ"
+- raw:
+  - "[mM][uU]"
+  - "ᒧ"
+- raw:
+  - "[mM][aA]"
+  - "ᒪ"
+- raw:
+  - "[nN][iI]"
+  - "ᓂ"
+- raw:
+  - "[nN][uU]"
+  - "ᓄ"
+- raw:
+  - "[nN][aA]"
+  - "ᓇ"
+- raw:
+  - "[nN][gG]"
+  - "ᖕ"
+- raw:
+  - "[sS][iI]"
+  - "ᓯ"
+- raw:
+  - "[sS][uU]"
+  - "ᓱ"
+- raw:
+  - "[sS][aA]"
+  - "ᓴ"
+- raw:
+  - "[lL][iI]"
+  - "ᓕ"
+- raw:
+  - "[lL][uU]"
+  - "ᓗ"
+- raw:
+  - "[lL][aA]"
+  - "ᓚ"
+- raw:
+  - "[jJyY][iI]"
+  - "ᔨ"
+- raw:
+  - "[jJyY][uU]"
+  - "ᔪ"
+- raw:
+  - "[jJyY][aA]"
+  - "ᔭ"
+- raw:
+  - "[vV][iI]"
+  - "ᕕ"
+- raw:
+  - "[vV][uU]"
+  - "ᕗ"
+- raw:
+  - "[vV][aA]"
+  - "ᕙ"
+- raw:
+  - "[rR][iI]"
+  - "ᕆ"
+- raw:
+  - "[rR][uU]"
+  - "ᕈ"
+- raw:
+  - "[rR][aA]"
+  - "ᕋ"
+- raw:
+  - "[qQ][iI]"
+  - "ᕿ"
+- raw:
+  - "[qQ][uU]"
+  - "ᖁ"
+- raw:
+  - "[qQ][aA]"
+  - "ᖃ"
+- raw:
+  - "[łŁ&][iI]"
+  - "ᖠ"
+- raw:
+  - "[łŁ&][uU]"
+  - "ᖢ"
+- raw:
+  - "[łŁ&][aA]"
+  - "ᖤ"
+
+- raw:
+  - "[iI]"
+  - "ᐃ"
+- raw:
+  - "[uU]"
+  - "ᐅ"
+- raw:
+  - "[aA]"
+  - "ᐊ"
+- raw:
+  - "[pP]"
+  - "ᑉ"
+- raw:
+  - "[pP]"
+  - "ᑉ"
+- raw:
+  - "[tT]"
+  - "ᑦ"
+- raw:
+  - "[kK]"
+  - "ᒃ"
+- raw:
+  - "[gG]"
+  - "ᒡ"
+- raw:
+  - "[mM]"
+  - "ᒻ"
+- raw:
+  - "[nN]"
+  - "ᓐ"
+- raw:
+  - "[sS]"
+  - "ᔅ"
+- raw:
+  - "[lL]"
+  - "ᓪ"
+- raw:
+  - "[jJyY]"
+  - "ᔾ"
+- raw:
+  - "[vV]"
+  - "ᕝ"
+- raw:
+  - "[rR]"
+  - "ᕐ"
+- raw:
+  - "[qQ]"
+  - "ᖅ"
+- raw:
+  - "[łŁ&]"
+  - "ᖦ"

@@ -4,7 +4,8 @@
   "description": "Language bot for matrix",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exitcrash --ignore *.sqlite -x ts-node index.ts"
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "author": "Daniel",
   "license": "ISC",
