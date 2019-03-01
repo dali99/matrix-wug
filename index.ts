@@ -1,16 +1,13 @@
-const version = "2.0.1";
+const version = "2.0.2";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
 const config = (existsSync("./config.json")) ? require("./config.json") : {};
 
-console.log(process.env.MATRIXDEV_HOMESERVER);
-console.log(process.env.MATRIXDEV_TOKEN);
-
 const MatrixClient = require("matrix-bot-sdk").MatrixClient;
 const AutojoinRoomsMixin = require("matrix-bot-sdk").AutojoinRoomsMixin;
 
-const homeserver = (config.homeserver || process.env.WUG_HOMESERVER  || process.env.MATRIXDEV_HOMESERVER);
+const homeserver = (config.homeserver || process.env.WUG_HOMESERVER || process.env.MATRIXDEV_HOMESERVER);
 const token = (config.token || process.env.WUG_TOKEN || process.env.MATRIXDEV_TOKEN);
 
 const client = new MatrixClient(homeserver, token);
