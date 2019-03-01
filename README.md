@@ -23,6 +23,12 @@ This is best learned by experimenting.
 
 Inuktitut Syllabics: https://en.wikipedia.org/wiki/Inuktitut_syllabics
 
+Iñupiatun Orthography:
+
+* & for miniscule ł
+* l% and n% for ł and ñ each
+* g^, l^, &^ (or l%^ and l^%) n^, and r^ for ġ ḷ ł̣ ŋ ȓ each
+
 These conversions were originally taken from [xsduan/conniebot](https://github.com/xsduan/conniebot), and the discord bot Tuugaalikkuluk (thanks!) But have later divirged a bit.
 
 To use the bot I run an instance at [@wug:dodsorf.as](https://matrix.to/#/@wug:dodsorf.as), you can invite it to a room or DM it to use the converter. Or you can read the setup instructions below to host your own!

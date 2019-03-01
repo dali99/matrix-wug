@@ -37,6 +37,10 @@ const regex = OuterXRegExp(
 const defaultMatchAction = (left: string, match: string, right: string) => left + match + right;
 
 const matchType: { [key: string]: IMatchInstructions } = {
+  ik: {
+    join: (_, match) => `- ${match}`,
+    keys: readKeys("./x2i/ik-keys.yaml"),
+  },
   p: {
     join: (_, match) => `*${match}`,
     keys: readKeys("./x2i/apie-keys.yaml"),
@@ -48,7 +52,7 @@ const matchType: { [key: string]: IMatchInstructions } = {
     keys: readKeys("./x2i/z2i-keys.yaml"),
   },
   i: {
-    join: (_, match) => `|${match}|`,
+    join: (_, match) => `- ${match}`,
     keys: readKeys("./x2i/i-keys.yaml"),
   },
 };
