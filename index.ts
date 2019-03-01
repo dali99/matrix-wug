@@ -1,4 +1,4 @@
-const version = "2.1.1";
+const version = "2.1.2";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -27,7 +27,7 @@ async function handle(roomId, event) {
 
     if (event.content.body === "!xhelp" || event.content.body === (await client.getUserProfile(await myself)).displayname + ": help") {help(roomId); return;};
     if (event.content.body === "!xik") {xik(roomId); return;};
-    if (event.content.body === "!pie") {xpie(roomId); return;};
+    if (event.content.body === "!xpie") {xpie(roomId); return;};
     if (event.content.body === "!xdebug") {debug(roomId); return;};
 
     console.log("Trying to convert the message!");
