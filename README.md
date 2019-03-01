@@ -20,7 +20,14 @@ For the PIE notation:
 * Palato-velars are marked with a following ' and x1, x2, x3 etc. yields the laryngeals, with x@ for the subscript a laryngeal, and xx for an unknown laryngeal.
 
 This is best learned by experimenting.
+
 Inuktitut Syllabics: https://en.wikipedia.org/wiki/Inuktitut_syllabics
+
+Iñupiatun Orthography:
+
+* & for miniscule ł
+* l% and n% for ł and ñ each
+* g^, l^, &^ (or l%^ and l^%) n^, and r^ for ġ ḷ ł̣ ŋ ȓ each
 
 These conversions were originally taken from [xsduan/conniebot](https://github.com/xsduan/conniebot), and the discord bot Tuugaalikkuluk (thanks!) But have later divirged a bit.
 
