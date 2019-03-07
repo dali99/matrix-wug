@@ -1,4 +1,4 @@
-const version = "2.1.2";
+const version = "2.2.0";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -28,6 +28,7 @@ async function handle(roomId, event) {
     if (event.content.body === "!xhelp" || event.content.body === (await client.getUserProfile(await myself)).displayname + ": help") {help(roomId); return;};
     if (event.content.body === "!xik") {xik(roomId); return;};
     if (event.content.body === "!xpie") {xpie(roomId); return;};
+    if (event.content.body === "!xchr") {xchr(roomId); return;};
     if (event.content.body === "!xdebug") {debug(roomId); return;};
 
     console.log("Trying to convert the message!");
@@ -40,17 +41,22 @@ async function handle(roomId, event) {
 
 
 function help(roomId) {
-    var message = `Hi I can help you translate X-SAMPA, Z-SAMPA to IPA!
-Use (x/z/p/i/ik) together with either / or [] as delimeters
-x/"hEloU/ z[or\` 5aIk DIz] p/mreghnom/ 😀
+    var message = `Hi I am a general language bot!
+To use me, type a key together with either / or [] as delimeters
 
 x - X-SAMPA - https://en.wikipedia.org/wiki/X-SAMPA
 z - Z-SAMPA - http://www.kneequickie.com/kq/Z-SAMPA
 p - Proto-Indo-European Notation (see !xpie)
-i - Inuktitut Syllabics | https://en.wikipedia.org/wiki/Inuktitut_syllabics
-ik - Iñupiatun Orthography (see !xik)
+i - Inuktitut Syllabics - https://en.wikipedia.org/wiki/Inuktitut_syllabics
+ik - Iñupiatun Orthographies (see !xik)
+chr - Cherokee (see !xchr) - https://en.wikipedia.org/wiki/Cherokee_syllabary
 
-Find my source at https://github.com/Dali99/matrix-wug`;
+Find my source at https://github.com/Dali99/matrix-wug
+
+EXAMPLES:
+x/"hEloU/ - /ˈhɛloʊ/
+z[or\` 5aIk DIz] - [oɽ ɫaɪk ðɪz]
+`;
     
     client.sendNotice(roomId, message);
 }
@@ -78,6 +84,19 @@ l% and n% for ł and ñ each
 g^, l^, &^ (or l%^ and l^%) n^, and r^ for ġ ḷ ł̣ ŋ ȓ each
 
 Thanks to Tuugaalikkuluk for the encoding`;
+    
+    client.sendNotice(roomId, message);
+}
+
+function xchr(roomId) {
+    var message = `I'm sadly not smart enough to know which syllable to  use in certain situations.
+That means you have to help me out a little.
+Write the wanted syllables down, but separate them by  a dot (.)
+
+Thanks to Tuugaalikkuluk for the encoding
+
+EXAMPLES:
+chr/tsa.la.gi ga.wo.ni.hi.s.di/ - ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ`;
     
     client.sendNotice(roomId, message);
 }
