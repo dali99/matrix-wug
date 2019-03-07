@@ -21,8 +21,9 @@ type CompiledReplacer = [
 ];
 
 interface IMatchInstructions {
-  keys: CompiledReplacer[];
+  keys?: CompiledReplacer[];
   join?(left: string, match: string, right: string): string;
+  matchFunction?: Function;
 }
 
 const regex = OuterXRegExp(
@@ -35,8 +36,15 @@ const regex = OuterXRegExp(
   "gmx");
 
 const defaultMatchAction = (left: string, match: string, right: string) => left + match + right;
+const defaultMatchFunction = (match: string, keys: ([RegExp, string | ((m: {[key: string]: string;}) => string), string][])) => OuterXRegExp.replaceEach(match, keys as (RegExp | string)[][])
+
+import * as chr from "./chr";
 
 const matchType: { [key: string]: IMatchInstructions } = {
+  chr: {
+    join: (_, match) => `- ${match}`,
+    matchFunction: chr.convert,
+  },
   ik: {
     join: (_, match) => `- ${match}`,
     keys: readKeys("./x2i/ik-keys.yaml"),
@@ -119,11 +127,12 @@ export function force(key: string, left: string, match: string, right: string) {
   const lowerKey = key.toLowerCase();
   if (!(lowerKey in matchType)) return;
 
-  const { keys, join } = matchType[lowerKey];
-  if (keys) {
+  const { keys, join, matchFunction } = matchType[lowerKey];
+  if (keys || matchFunction) {
     const action = join || defaultMatchAction;
+    const doFunction = matchFunction || defaultMatchFunction;
     // need to use `as (RegExp | string)[][]` because the provided typings are too generic
-    return action(left, OuterXRegExp.replaceEach(match, keys as (RegExp | string)[][]), right);
+    return action(left, doFunction(match, keys), right);
   }
 }
 
