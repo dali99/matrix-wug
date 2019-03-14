@@ -1,4 +1,4 @@
-const version = "2.2.0";
+const version = "2.2.1";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -91,7 +91,7 @@ Thanks to Tuugaalikkuluk for the encoding`;
 function xchr(roomId) {
     var message = `I'm sadly not smart enough to know which syllable to  use in certain situations.
 That means you have to help me out a little.
-Write the wanted syllables down, but separate them by  a dot (.)
+Write the wanted syllables down, but separate them by  a dot (.) or an apostrophe (')
 
 Thanks to Tuugaalikkuluk for the encoding
 

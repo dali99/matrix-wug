@@ -23,37 +23,37 @@ export function convert(input: string)
         else if (i==1) {
             if (rom[0].toLowerCase()=='a') {
                 c=c+'Ꭰ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2)
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2)
                 else rom=rom.slice(1);
             }
             else if (rom[0].toLowerCase()=='e') {
                 c=c+'Ꭱ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2);
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2);
                 else rom=rom.slice(1);
             }
             else if (rom[0].toLowerCase()=='i') {
                 c=c+'Ꭲ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2);
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2);
                 else rom=rom.slice(1);
             }
             else if (rom[0].toLowerCase()=='o') {
                 c=c+'Ꭳ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2);
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2);
                 else rom=rom.slice(1);
             }
             else if (rom[0].toLowerCase()=='u') {
                 c=c+'Ꭴ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2);
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2);
                 else rom=rom.slice(1);
             }
             else if (rom[0].toLowerCase()=='v') {
                 c=c+'Ꭵ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2);
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2);
                 else rom=rom.slice(1);
             }
             else if (rom[0].toLowerCase()=='s') {
                 c=c+'Ꮝ';
-                if(rom[1]=="."&& isAlpha(rom[2])) rom=rom.slice(2);
+                if((rom[1] == "." || rom[1] == "'")&& isAlpha(rom[2])) rom=rom.slice(2);
                 else rom=rom.slice(1);
             }
             else {
@@ -78,7 +78,7 @@ export function convert(input: string)
             };
             if(flag) {
                 c=c+syl[j][k];
-                if(rom[2]=="."&& isAlpha(rom[3])) rom=rom.slice(3);
+                if((rom[2] == "." || rom[2] == "'")&& isAlpha(rom[3])) rom=rom.slice(3);
                 else rom=rom.slice(2);
             }
             else {
@@ -103,17 +103,17 @@ export function convert(input: string)
             };
             if(flag) {
                 c=c+syl[j][k];
-                if(rom[3]=="." && isAlpha(rom[4])) rom=rom.slice(4);
+                if((rom[3] == "." || rom[3] == "'") && isAlpha(rom[4])) rom=rom.slice(4);
                 else rom=rom.slice(3);
             }
             else if (rom.slice(0,3).toLowerCase()=="nah") {
                 c=c+"Ꮐ";
-                if(rom[3]=="." && isAlpha(rom[4])) rom=rom.slice(4);
+                if((rom[3] == "." || rom[3] == "'") && isAlpha(rom[4])) rom=rom.slice(4);
                 else rom=rom.slice(3);
             }
             else if (rom.slice(0,3).toLowerCase()=="hna") {
                 c=c+"Ꮏ";
-                if(rom[3]=="." && isAlpha(rom[4])) rom=rom.slice(4);
+                if((rom[3] == "." || rom[3] == "'") && isAlpha(rom[4])) rom=rom.slice(4);
                 else rom=rom.slice(3);
             }
             else {
