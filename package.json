@@ -15,9 +15,7 @@
     "@types/node": "^10.12.11",
     "@types/xregexp": "^3.0.29",
     "js-yaml": "^3.12.0",
-    "ts-node": "^7.0.1",
     "typescript": "^3.2.1",
-    "xregexp": "^4.2.0",
-    "nodemon": "^1.18.7"
+    "xregexp": "^4.2.0"
   }
 }

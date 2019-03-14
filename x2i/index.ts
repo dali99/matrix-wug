@@ -38,7 +38,7 @@ const regex = OuterXRegExp(
 const defaultMatchAction = (left: string, match: string, right: string) => left + match + right;
 const defaultMatchFunction = (match: string, keys: ([RegExp, string | ((m: {[key: string]: string;}) => string), string][])) => OuterXRegExp.replaceEach(match, keys as (RegExp | string)[][])
 
-import * as chr from "./chr";
+import * as chr from "./dictionaries/chr";
 
 const matchType: { [key: string]: IMatchInstructions } = {
   chr: {
@@ -47,21 +47,21 @@ const matchType: { [key: string]: IMatchInstructions } = {
   },
   ik: {
     join: (_, match) => `- ${match}`,
-    keys: readKeys("./x2i/ik-keys.yaml"),
+    keys: readKeys("./x2i/dictionaries/ik-keys.yaml"),
   },
   p: {
     join: (_, match) => `*${match}`,
-    keys: readKeys("./x2i/apie-keys.yaml"),
+    keys: readKeys("./x2i/dictionaries/apie-keys.yaml"),
   },
   x: {
-    keys: readKeys("./x2i/x2i-keys.yaml"),
+    keys: readKeys("./x2i/dictionaries/x2i-keys.yaml"),
   },
   z: {
-    keys: readKeys("./x2i/z2i-keys.yaml"),
+    keys: readKeys("./x2i/dictionaries/z2i-keys.yaml"),
   },
   i: {
     join: (_, match) => `- ${match}`,
-    keys: readKeys("./x2i/i-keys.yaml"),
+    keys: readKeys("./x2i/dictionaries/i-keys.yaml"),
   },
 };
 

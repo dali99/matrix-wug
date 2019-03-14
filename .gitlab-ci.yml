@@ -1,6 +1,21 @@
+stages:
+  - build
+  - deploy
+
+
 image: node:10-slim
 
 build:
+  stage: build
   script:
   - npm install
-  - npm build
+  - npm run build
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploy to dodsorf.as"
+  environment:
+    name: wug dodsorf.as
+  only:
+  - master
