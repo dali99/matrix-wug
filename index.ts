@@ -1,4 +1,4 @@
-const version = "2.2.1";
+const version = "2.3.0";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -29,6 +29,7 @@ async function handle(roomId, event) {
     if (event.content.body === "!xik") {xik(roomId); return;};
     if (event.content.body === "!xpie") {xpie(roomId); return;};
     if (event.content.body === "!xchr") {xchr(roomId); return;};
+    if (event.content.body === "!xnav") {xnav(roomId); return;};
     if (event.content.body === "!xdebug") {debug(roomId); return;};
 
     console.log("Trying to convert the message!");
@@ -50,6 +51,7 @@ p - Proto-Indo-European Notation (see !xpie)
 i - Inuktitut Syllabics - https://en.wikipedia.org/wiki/Inuktitut_syllabics
 ik - Iñupiatun Orthographies (see !xik)
 chr - Cherokee (see !xchr) - https://en.wikipedia.org/wiki/Cherokee_syllabary
+nav - Navajo (see !xnav)
 
 Find my source at https://github.com/Dali99/matrix-wug
 
@@ -100,6 +102,22 @@ chr/tsa.la.gi ga.wo.ni.hi.s.di/ - ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ`;
     
     client.sendNotice(roomId, message);
 }
+
+function xnav(roomId) {
+    var message = `My navajo encoding is as follows:
+Caron after a vowel gives it an acute accent: o^ → ó, A^ → Á
+At sign after a vowel gives it an ogonek: a@ → ą, E@ → Ę
+Percentage sign after a vowel gives it both an ogonek and an acute accent: a% → ą́, I% → Į́ and after an l, it makes ł: l% → ł
+You can also "stack the symbols" for an ogonek and an accute accent: (a^@, a@^) → ą́
+Single quotation mark is converted to the glottal stop/ejective mark (’)
+For a plain quotation mark, you can type '^
+
+Thanks to Tuugaalikkuluk for the encoding`;
+
+    client.sendNotice(roomId, message);
+}
+
+
 
 async function debug(roomId) {
     var message = `Hi my name is ${await myself}, and I want to help you debug me!
