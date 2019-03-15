@@ -39,11 +39,16 @@ const defaultMatchAction = (left: string, match: string, right: string) => left 
 const defaultMatchFunction = (match: string, keys: ([RegExp, string | ((m: {[key: string]: string;}) => string), string][])) => OuterXRegExp.replaceEach(match, keys as (RegExp | string)[][])
 
 import * as chr from "./dictionaries/chr";
+import * as nav from "./dictionaries/nav";
 
 const matchType: { [key: string]: IMatchInstructions } = {
   chr: {
     join: (_, match) => `- ${match}`,
     matchFunction: chr.convert,
+  },
+  nav: {
+    join: (_, match) => `- ${match}`,
+    matchFunction: nav.convert,
   },
   ik: {
     join: (_, match) => `- ${match}`,
