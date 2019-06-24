@@ -11,10 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "matrix-bot-sdk": "^0.3.2",
-    "@types/js-yaml": "^3.11.2",
+    "@types/js-yaml": "^3.12.1",
     "@types/node": "^10.12.11",
     "@types/xregexp": "^3.0.29",
-    "js-yaml": "^3.12.0",
+    "js-yaml": "^3.13.1",
     "typescript": "^3.2.1",
     "xregexp": "^4.2.0"
   }
