@@ -77,8 +77,9 @@ const matchType: { [key: string]: IMatchInstructions } = {
  * @returns Compiled keys.
  */
 function readKeys(fpath: string) {
-  return yaml
+  var keys: any = yaml
     .safeLoad(fs.readFileSync(fpath, "utf8"))
+  return keys
     .map(compileKey)
     .filter(Boolean) as CompiledReplacer[];
 }

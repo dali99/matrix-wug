@@ -1,4 +1,4 @@
-const version = "2.3.1";
+const version = "2.3.2";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -24,6 +24,7 @@ async function handle(roomId, event) {
 
     if (event.unsigned.age > 1000 * 60) { console.log("Message was old!"); return; };
     if (event.sender === await myself) { console.log("Wait a minute... That's me!"); return;};
+    if (event.content.msgtype === "m.notice") { return; };
 
     if (event.content.body === "!xhelp" || event.content.body === (await client.getUserProfile(await myself)).displayname + ": help") {help(roomId); return;};
     if (event.content.body === "!xik") {xik(roomId); return;};
@@ -46,8 +47,8 @@ function help(roomId) {
 To use me, type a key together with either / or [] as delimeters
 
 x - X-SAMPA - https://en.wikipedia.org/wiki/X-SAMPA
-z - Z-SAMPA - http://www.kneequickie.com/kq/Z-SAMPA
-p - Proto-Indo-European Notation (see !xpie)
+z - Z-SAMPA - https://web.archive.org/web/20191116002807/http://kneequickie.com/kq/Z-SAMPA
+p - Proto-Indo-European Notation - https://gist.github.com/xsduan/8ebd580be71214c57aa554ec9050916c
 i - Inuktitut Syllabics - https://en.wikipedia.org/wiki/Inuktitut_syllabics
 ik - Iñupiatun Orthographies (see !xik)
 chr - Cherokee (see !xchr) - https://en.wikipedia.org/wiki/Cherokee_syllabary
@@ -72,7 +73,7 @@ a following . is the syllabicity marker
 h always becomes superscript and v is superscript w.
 Palato-velars are marked with a following ' and x1, x2, x3 etc. yields the laryngeals, with x@ for the subscript a laryngeal, and xx for an unknown laryngeal.
 
-There's probably more, but this is best learned by experimenting (or reading https://github.com/dali99/matrix-wug/blob/master/x2i/apie-keys.yaml)
+There's probably more, but this is best learned by experimenting (or reading https://gist.github.com/xsduan/8ebd580be71214c57aa554ec9050916c)
 
 Thanks to conniebot (xsduan) for the encoding`;
     
