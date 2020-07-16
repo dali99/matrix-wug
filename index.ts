@@ -24,6 +24,7 @@ async function handle(roomId, event) {
 
     if (event.unsigned.age > 1000 * 60) { console.log("Message was old!"); return; };
     if (event.sender === await myself) { console.log("Wait a minute... That's me!"); return;};
+    if (event.content.msgtype === "m.notice") { return; };
 
     if (event.content.body === "!xhelp" || event.content.body === (await client.getUserProfile(await myself)).displayname + ": help") {help(roomId); return;};
     if (event.content.body === "!xik") {xik(roomId); return;};
