@@ -157,7 +157,8 @@ export default function x2i(content: string) {
   OuterXRegExp.forEach(content, regex, match => {
     const parts = match.slice(2, 6);
     if (parts.length === 4) {
-      const [k, l, m, r] = parts;
+      var [k, l, m, r] = parts;
+      if (k === "hi") { m = m.toLowerCase() }
       const converted = force(k, l, m, r); // eg x, [, text, ]
 
       if (converted) {

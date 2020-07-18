@@ -1,4 +1,10 @@
 ---
+# n has supesharu sutâtsusu
+- raw:
+  - "n'"
+  - "ん"
+# gojuuonzu 4-letter
+
 # gojuuonzu 3-letter
 - raw:
   - "shi"
@@ -20,22 +26,22 @@
   - "kyo"
   - "きょ"
 - raw:
-  - "sha"
+  - "sha|sya"
   - "しゃ"
 - raw:
-  - "shu"
+  - "shu|syu"
   - "しゅ"
 - raw:
-  - "sho"
+  - "sho|syo"
   - "しょ"
 - raw:
-  - "cha"
+  - "cha|tya"
   - "ちゃ"
 - raw:
-  - "chu"
+  - "chu|tyu"
   - "ちゅ"
 - raw:
-  - "cho"
+  - "cho|tyo"
   - "ちょ"
 - raw:
   - "nya"
@@ -101,6 +107,24 @@
 - raw:
   - "pyo"
   - "ぴょ"
+- raw:
+  - "zya"
+  - "じゃ"
+- raw:
+  - "zyu"
+  - "じゅ"
+- raw:
+  - "zyo"
+  - "じょ"
+- raw:
+  - "dya"
+  - "ぢゃ"
+- raw:
+  - "dyu"
+  - "ぢゅ"
+- raw:
+  - "dyo"
+  - "ぢょ"
 #sokuon
 - raw:
   - "kka"
@@ -159,6 +183,76 @@
 - raw:
   - "wwo"
   - "っを"
+#dakuon and handakuon 3-letters
+- raw:
+  - "gga"
+  - "っが"
+- raw:
+  - "ggi"
+  - "っぎ"
+- raw:
+  - "ggu"
+  - "っぐ"
+- raw:
+  - "gge"
+  - "っげ"
+- raw:
+  - "ggo"
+  - "っご"
+- raw:
+  - "zza"
+  - "っざ"
+- raw:
+  - "jji"
+  - "っじ"
+- raw:
+  - "zzu"
+  - "っず"
+- raw:
+  - "zze"
+  - "っぜ"
+- raw:
+  - "zzo"
+  - "っぞ"
+- raw:
+  - "dda"
+  - "っだ"
+- raw:
+  - "dde"
+  - "っで"
+- raw:
+  - "ddo"
+  - "っど"
+- raw:
+  - "bba"
+  - "っば"
+- raw:
+  - "bbi"
+  - "っび"
+- raw:
+  - "bbu"
+  - "っぶ"
+- raw:
+  - "bbe"
+  - "っべ"
+- raw:
+  - "bbo"
+  - "っぼ"
+- raw:
+  - "ppa"
+  - "っぱ"
+- raw:
+  - "ppi"
+  - "っぴ"
+- raw:
+  - "ppu"
+  - "っぷ"
+- raw:
+  - "ppe"
+  - "っぺ"
+- raw:
+  - "ppo"
+  - "っぽ"
 
 # gojuuonzu 2-letter
 - raw:
@@ -178,7 +272,10 @@
   - "こ"
 - raw:
   - "sa"
-  - "ka"
+  - "さ"
+- raw:
+  - "si"
+  - "し"
 - raw:
   - "su"
   - "す"
@@ -191,6 +288,12 @@
 - raw:
   - "ta"
   - "た"
+- raw:
+  - "ti"
+  - "ち"
+- raw:
+  - "tu"
+  - "つ"
 - raw:
   - "te"
   - "て"
@@ -219,7 +322,7 @@
   - "hi"
   - "ひ"
 - raw:
-  - "fu"
+  - "fu|hu"
   - "ふ"
 - raw:
   - "he"
@@ -292,7 +395,7 @@
   - "za"
   - "ざ"
 - raw:
-  - "ji"
+  - "ji|zi"
   - "じ"
 - raw:
   - "zu"
@@ -307,10 +410,10 @@
   - "da"
   - "だ"
 - raw:
-  - "ji"
+  - "di"
   - "ぢ"
 - raw:
-  - "zu"
+  - "zu|du"
   - "づ"
 - raw:
   - "de"
@@ -347,8 +450,31 @@
   - "ぺ"
 - raw:
   - "po"
-  - "ぽ
-"
+  - "ぽ"
+- raw:
+  - ""
+  - ""
+#youon 2-letter
+- raw:
+  - "ja"
+  - "じゃ"
+- raw:
+  - "ju"
+  - "じゅ"
+- raw:
+  - "jo"
+  - "じょ"
+# ????? 2 - letter
+- raw:
+  - "wi"
+  - "ゐ"
+- raw:
+  - "we"
+  - "ゑ"
+- raw:
+  - "wo"
+  - "を"
+
 # gojuuonzu 1-letter
 - raw:
   - "a"
