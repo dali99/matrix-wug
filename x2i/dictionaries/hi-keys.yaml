@@ -4,7 +4,89 @@
   - "n'"
   - "ん"
 # gojuuonzu 4-letter
-
+- raw:
+  - "sshi|ssi"
+  - "っし"
+- raw:
+  - "tchi|cchi|tti"
+  - "っち"
+- raw:
+  - "ttsu|ttu"
+  - "っつ"
+# youon 4-letter
+- raw:
+  - "kkya"
+  - "っきゃ"
+- raw:
+  - "kkyu"
+  - "っきゅ"
+- raw:
+  - "kkyo"
+  - "っきょ"
+- raw:
+  - "ssha|ssya"
+  - "っしゃ"
+- raw:
+  - "sshu|ssyu"
+  - "っしゅ"
+- raw:
+  - "ssho|ssyo"
+  - "っしょ"
+- raw:
+  - "tcha|ccha|ttya"
+  - "っちゃ"
+- raw:
+  - "tchu|cchu|ttyu"
+  - "っちゅ"
+- raw:
+  - "tcho|ccho|ttyo"
+  - "っちょ"
+# dakuten and handakuten 3-letter
+- raw:
+  - "ggya"
+  - "っぎゃ"
+- raw:
+  - "ggyu"
+  - "っぎゅ"
+- raw:
+  - "ggyo"
+  - "っぎょ"
+- raw:
+  - "bbya"
+  - "っびゃ"
+- raw:
+  - "bbyu"
+  - "っびゅ"
+- raw:
+  - "bbyo"
+  - "っびょ"
+- raw:
+  - "ppya"
+  - "っぴゃ"
+- raw:
+  - "ppyu"
+  - "っぴゅ"
+- raw:
+  - "ppyo"
+  - "っぴょ"
+- raw:
+  - "zzya|jja"
+  - "っじゃ"
+- raw:
+  - "zzyu|jju"
+  - "っじゅ"
+- raw:
+  - "zzyo|jjo"
+  - "っじょ"
+- raw:
+  - "ddya"
+  - "っぢゃ"
+- raw:
+  - "ddyu"
+  - "っぢゅ"
+- raw:
+  - "ddyo"
+  - "っぢょ"
 # gojuuonzu 3-letter
 - raw:
   - "shi"
