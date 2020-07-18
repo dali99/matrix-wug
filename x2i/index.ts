@@ -158,7 +158,7 @@ export default function x2i(content: string) {
     const parts = match.slice(2, 6);
     if (parts.length === 4) {
       var [k, l, m, r] = parts;
-      if (k === "hi") { m = m.toLowerCase() }
+      if (k === "hi") { m = m.replace(/\s/g, '').toLowerCase() }
       const converted = force(k, l, m, r); // eg x, [, text, ]
 
       if (converted) {
