@@ -8,7 +8,6 @@
 - raw:
   - "[xl]tsu"
   - "っ"
-# 
 # youon 4-letter
 - raw:
   - "chya"
@@ -595,13 +594,10 @@
 # ????? 2 - letter
 - raw:
   - "wi"
-  - "ゐ"
+  - "うぃ"
 - raw:
   - "we"
-  - "ゑ"
-- raw:
-  - "wo"
-  - "を"
+  - "うぇ"
 # gojuuonzu smol 2-letter
 - raw:
   - "[xl]a"
