@@ -1,17 +1,17 @@
----
+	---
 # n has supesharu sutâtsusu
 - raw:
   - "n'"
   - "ん"
 # gojuuonzu 4-letter
 - raw:
-  - "sshi|ssi"
+  - "sshi"
   - "っし"
 - raw:
-  - "tchi|cchi|tti"
+  - "tchi|cchi"
   - "っち"
 - raw:
-  - "ttsu|ttu"
+  - "ttsu"
   - "っつ"
 # youon 4-letter
 - raw:
@@ -41,7 +41,7 @@
 - raw:
   - "tcho|ccho|ttyo"
   - "っちょ"
-# dakuten and handakuten 3-letter
+# dakuten and handakuten souken 4-letter
 - raw:
   - "ggya"
   - "っぎゃ"
@@ -70,13 +70,13 @@
   - "ppyo"
   - "っぴょ"
 - raw:
-  - "zzya|jja"
+  - "zzya"
   - "っじゃ"
 - raw:
-  - "zzyu|jju"
+  - "zzyu"
   - "っじゅ"
 - raw:
-  - "zzyo|jjo"
+  - "zzyo"
   - "っじょ"
 - raw:
   - "ddya"
@@ -161,6 +161,15 @@
 - raw:
   - "ryo"
   - "りょ"
+- raw:
+  - "jja"
+  - "っじゃ"
+- raw:
+  - "jju"
+  - "っじゅ"
+- raw:
+  - "jjo"
+  - "っじょ"
 # dakuten and handakuten 3-letter
 - raw:
   - "gya"
@@ -207,7 +216,7 @@
 - raw:
   - "dyo"
   - "ぢょ"
-#sokuon
+# sokuon 3-letter
 - raw:
   - "kka"
   - "っか"
@@ -227,6 +236,9 @@
   - "ssa"
   - "っさ"
 - raw:
+  - "ssi"
+  - "っし"
+- raw:
   - "ssu"
   - "っす"
 - raw:
@@ -238,6 +250,12 @@
 - raw:
   - "tta"
   - "った"
+- raw:
+  - "tti"
+  - "っち"
+- raw:
+  - "ttu"
+  - "っつ"
 - raw:
   - "tte"
   - "って"
@@ -265,7 +283,7 @@
 - raw:
   - "wwo"
   - "っを"
-#dakuon and handakuon 3-letters
+#dakuon and handakuon souken 3-letters
 - raw:
   - "gga"
   - "っが"
@@ -533,9 +551,6 @@
 - raw:
   - "po"
   - "ぽ"
-- raw:
-  - ""
-  - ""
 #youon 2-letter
 - raw:
   - "ja"
