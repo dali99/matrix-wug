@@ -3,7 +3,17 @@
 - raw:
   - "n'"
   - "ん"
-# gojuuonzu 4-letter
+
+# gojuuonzu smol 4-letter
+- raw:
+  - "[xl]tsu"
+  - "っ"
+# 
+# youon 4-letter
+- raw:
+  - "chya"
+  - "ちゃ"
+# gojuuonzu souken 4-letter
 - raw:
   - "sshi"
   - "っし"
@@ -13,7 +23,7 @@
 - raw:
   - "ttsu"
   - "っつ"
-# youon 4-letter
+# youon souken 4-letter
 - raw:
   - "kkya"
   - "っきゃ"
@@ -353,7 +363,28 @@
 - raw:
   - "ppo"
   - "っぽ"
-
+# gojuuonzu 3-letter
+- raw:
+  - "[xl]ka"
+  - "ヵ"
+- raw:
+  - "[xl]ke"
+  - "ヶ"
+- raw:
+  - "[xl]tu"
+  - "っ"
+- raw:
+  - "[xl]ya"
+  - "ゃ"
+- raw:
+  - "[xl]yu"
+  - "ゅ"
+- raw:
+  - "[xl]yo"
+  - "ょ"
+- raw:
+  - "[xl]wa"
+  - "ゎ"
 # gojuuonzu 2-letter
 - raw:
   - "ka"
@@ -571,7 +602,25 @@
 - raw:
   - "wo"
   - "を"
-
+# gojuuonzu smol 2-letter
+- raw:
+  - "[xl]a"
+  - "ぁ"
+- raw:
+  - "[xl]i"
+  - "ぃ"
+- raw:
+  - "[xl]u"
+  - "ぅ"
+- raw:
+  - "[xl]e"
+  - "ぇ"
+- raw:
+  - "[xl]o"
+  - "ぉ"
+- raw:
+  - "[xl]n"
+  - "ん"
 # gojuuonzu 1-letter
 - raw:
   - "a"
