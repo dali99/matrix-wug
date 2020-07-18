@@ -1,0 +1,370 @@
+---
+# gojuuonzu 3-letter
+- raw:
+  - "shi"
+  - "し"
+- raw:
+  - "chi"
+  - "ち"
+- raw:
+  - "tsu"
+  - "つ"
+# youon 3-letter
+- raw:
+  - "kya"
+  - "きゃ"
+- raw:
+  - "kyu"
+  - "きゅ"
+- raw:
+  - "kyo"
+  - "きょ"
+- raw:
+  - "sha"
+  - "しゃ"
+- raw:
+  - "shu"
+  - "しゅ"
+- raw:
+  - "sho"
+  - "しょ"
+- raw:
+  - "cha"
+  - "ちゃ"
+- raw:
+  - "chu"
+  - "ちゅ"
+- raw:
+  - "cho"
+  - "ちょ"
+- raw:
+  - "nya"
+  - "にゃ"
+- raw:
+  - "nyu"
+  - "にゅ"
+- raw:
+  - "nyo"
+  - "にょ"
+- raw:
+  - "hya"
+  - "ひゃ"
+- raw:
+  - "hyu"
+  - "ひゅ"
+- raw:
+  - "hyo"
+  - "ひょ"
+- raw:
+  - "mya"
+  - "みゃ"
+- raw:
+  - "myu"
+  - "みゅ"
+- raw:
+  - "myo"
+  - "みょ"
+- raw:
+  - "rya"
+  - "りゃ"
+- raw:
+  - "ryu"
+  - "りゅ"
+- raw:
+  - "ryo"
+  - "りょ"
+# dakuten and handakuten 3-letter
+- raw:
+  - "gya"
+  - "ぎゃ"
+- raw:
+  - "gyu"
+  - "ぎゅ"
+- raw:
+  - "gyo"
+  - "ぎょ"
+- raw:
+  - "bya"
+  - "びゃ"
+- raw:
+  - "byu"
+  - "びゅ"
+- raw:
+  - "byo"
+  - "びょ"
+- raw:
+  - "pya"
+  - "ぴゃ"
+- raw:
+  - "pyu"
+  - "ぴゅ"
+- raw:
+  - "pyo"
+  - "ぴょ"
+#sokuon
+- raw:
+  - "kka"
+  - "っか"
+- raw:
+  - "kki"
+  - "っき"
+- raw:
+  - "kku"
+  - "っく"
+- raw:
+  - "kke"
+  - "っけ"
+- raw:
+  - "kko"
+  - "っこ"
+- raw:
+  - "ssa"
+  - "っさ"
+- raw:
+  - "ssu"
+  - "っす"
+- raw:
+  - "sse"
+  - "っせ"
+- raw:
+  - "sso"
+  - "っそ"
+- raw:
+  - "tta"
+  - "った"
+- raw:
+  - "tte"
+  - "って"
+- raw:
+  - "tto"
+  - "っと"
+- raw:
+  - "hha"
+  - "っは"
+- raw:
+  - "hhi"
+  - "っひ"
+- raw:
+  - "ffu"
+  - "っふ"
+- raw:
+  - "hhe"
+  - "っへ"
+- raw:
+  - "hho"
+  - "っほ"
+- raw:
+  - "wwa"
+  - "わ"
+- raw:
+  - "wwo"
+  - "っを"
+
+# gojuuonzu 2-letter
+- raw:
+  - "ka"
+  - "か"
+- raw:
+  - "ki"
+  - "き"
+- raw:
+  - "ku"
+  - "く"
+- raw:
+  - "ke"
+  - "け"
+- raw:
+  - "ko"
+  - "こ"
+- raw:
+  - "sa"
+  - "ka"
+- raw:
+  - "su"
+  - "す"
+- raw:
+  - "se"
+  - "せ"
+- raw:
+  - "so"
+  - "そ"
+- raw:
+  - "ta"
+  - "た"
+- raw:
+  - "te"
+  - "て"
+- raw:
+  - "to"
+  - "と"
+- raw:
+  - "na"
+  - "な"
+- raw:
+  - "ni"
+  - "に"
+- raw:
+  - "nu"
+  - "ぬ"
+- raw:
+  - "ne"
+  - "ね"
+- raw:
+  - "no"
+  - "の"
+- raw:
+  - "ha"
+  - "は"
+- raw:
+  - "hi"
+  - "ひ"
+- raw:
+  - "fu"
+  - "ふ"
+- raw:
+  - "he"
+  - "へ"
+- raw:
+  - "ho"
+  - "ほ"
+- raw:
+  - "ma"
+  - "ま"
+- raw:
+  - "mi"
+  - "み"
+- raw:
+  - "mu"
+  - "む"
+- raw:
+  - "me"
+  - "め"
+- raw:
+  - "mo"
+  - "も"
+- raw:
+  - "ya"
+  - "や"
+- raw:
+  - "yu"
+  - "ゆ"
+- raw:
+  - "yo"
+  - "よ"
+- raw:
+  - "ra"
+  - "ら"
+- raw:
+  - "ri"
+  - "り"
+- raw:
+  - "ru"
+  - "る"
+- raw:
+  - "re"
+  - "れ"
+- raw:
+  - "ro"
+  - "ろ"
+- raw:
+  - "wa"
+  - "わ"
+- raw:
+  - "wo"
+  - "を"
+# dakuon and handakuon 2-letter
+- raw:
+  - "ga"
+  - "が"
+- raw:
+  - "gi"
+  - "ぎ"
+- raw:
+  - "gu"
+  - "ぐ"
+- raw:
+  - "ge"
+  - "げ"
+- raw:
+  - "go"
+  - "ご"
+- raw:
+  - "za"
+  - "ざ"
+- raw:
+  - "ji"
+  - "じ"
+- raw:
+  - "zu"
+  - "ず"
+- raw:
+  - "ze"
+  - "ぜ"
+- raw:
+  - "zo"
+  - "ぞ"
+- raw:
+  - "da"
+  - "だ"
+- raw:
+  - "ji"
+  - "ぢ"
+- raw:
+  - "zu"
+  - "づ"
+- raw:
+  - "de"
+  - "で"
+- raw:
+  - "do"
+  - "ど"
+- raw:
+  - "ba"
+  - "ば"
+- raw:
+  - "bi"
+  - "び"
+- raw:
+  - "bu"
+  - "ぶ"
+- raw:
+  - "be"
+  - "べ"
+- raw:
+  - "bo"
+  - "ぼ"
+- raw:
+  - "pa"
+  - "ぱ"
+- raw:
+  - "pi"
+  - "ぴ"
+- raw:
+  - "pu"
+  - "ぷ"
+- raw:
+  - "pe"
+  - "ぺ"
+- raw:
+  - "po"
+  - "ぽ
+"
+# gojuuonzu 1-letter
+- raw:
+  - "a"
+  - "あ"
+- raw:
+  - "i"
+  - "い"
+- raw:
+  - "u"
+  - "う"
+- raw:
+  - "e"
+  - "え"
+- raw:
+  - "o"
+  - "お"
+- raw:
+  - "n"
+  - "ん"

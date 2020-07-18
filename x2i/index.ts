@@ -68,6 +68,10 @@ const matchType: { [key: string]: IMatchInstructions } = {
     join: (_, match) => `- ${match}`,
     keys: readKeys("./x2i/dictionaries/i-keys.yaml"),
   },
+  hi: {
+    join: (_, match) => `- ${match}`,
+    keys: readKeys("./x2i/dictionaries/hi-keys.yaml"),
+  },
 };
 
 /**
