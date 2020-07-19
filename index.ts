@@ -1,4 +1,4 @@
-const version = "2.3.2";
+const version = "2.4.3";
 import x2i from "./x2i";
 import { existsSync } from "fs";
 
@@ -53,6 +53,7 @@ i - Inuktitut Syllabics - https://en.wikipedia.org/wiki/Inuktitut_syllabics
 ik - Iñupiatun Orthographies (see !xik)
 chr - Cherokee (see !xchr) - https://en.wikipedia.org/wiki/Cherokee_syllabary
 nav - Navajo (see !xnav)
+hi - Hiragana, mainly https://en.wikipedia.org/wiki/Nihon-shiki_romanization and hepburn, but also with other unofficial styles
 
 Find my source at https://github.com/Dali99/matrix-wug
 

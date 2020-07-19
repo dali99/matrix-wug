@@ -1,0 +1,671 @@
+	---
+# n has supesharu sutâtsusu
+- raw:
+  - "n'"
+  - "ん"
+
+# hepburn long vowels
+- raw:
+  - "[āâ]"
+  - "aa"
+- raw:
+  - "[ūû]"
+  - "uu"
+- raw:
+  - "[ūû]"
+  - "uu"
+- raw:
+  - "[ēê]"
+  - "ee"
+- raw:
+  - "[ōô]"
+  - "oo"
+
+# youon souken 5-letter
+- raw:
+  - "cchya"
+  - "っちゃ"
+- raw:
+  - "cchyu"
+  - "っちゅ"
+- raw:
+  - "cchuo"
+  - "っちょ"
+
+# gojuuonzu smol 4-letter
+- raw:
+  - "[xl]tsu"
+  - "っ"
+# youon 4-letter
+- raw:
+  - "chya"
+  - "ちゃ"
+- raw:
+  - "chyu"
+  - "ちゅ"
+# gojuuonzu souken 4-letter
+- raw:
+  - "sshi"
+  - "っし"
+- raw:
+  - "tchi|cchi"
+  - "っち"
+- raw:
+  - "ttsu"
+  - "っつ"
+# youon souken 4-letter
+- raw:
+  - "kkya"
+  - "っきゃ"
+- raw:
+  - "kkyu"
+  - "っきゅ"
+- raw:
+  - "kkyo"
+  - "っきょ"
+- raw:
+  - "ssha|ssya"
+  - "っしゃ"
+- raw:
+  - "sshu|ssyu"
+  - "っしゅ"
+- raw:
+  - "ssho|ssyo"
+  - "っしょ"
+- raw:
+  - "tcha|ccha|ttya"
+  - "っちゃ"
+- raw:
+  - "tchu|cchu|ttyu"
+  - "っちゅ"
+- raw:
+  - "tcho|ccho|ttyo"
+  - "っちょ"
+# dakuten and handakuten souken 4-letter
+- raw:
+  - "ggya"
+  - "っぎゃ"
+- raw:
+  - "ggyu"
+  - "っぎゅ"
+- raw:
+  - "ggyo"
+  - "っぎょ"
+- raw:
+  - "bbya"
+  - "っびゃ"
+- raw:
+  - "bbyu"
+  - "っびゅ"
+- raw:
+  - "bbyo"
+  - "っびょ"
+- raw:
+  - "ppya"
+  - "っぴゃ"
+- raw:
+  - "ppyu"
+  - "っぴゅ"
+- raw:
+  - "ppyo"
+  - "っぴょ"
+- raw:
+  - "zzya"
+  - "っじゃ"
+- raw:
+  - "zzyu"
+  - "っじゅ"
+- raw:
+  - "zzyo"
+  - "っじょ"
+- raw:
+  - "ddya"
+  - "っぢゃ"
+- raw:
+  - "ddyu"
+  - "っぢゅ"
+- raw:
+  - "ddyo"
+  - "っぢょ"
+# gojuuonzu 3-letter
+- raw:
+  - "shi"
+  - "し"
+- raw:
+  - "chi"
+  - "ち"
+- raw:
+  - "tsu"
+  - "つ"
+# youon 3-letter
+- raw:
+  - "kya"
+  - "きゃ"
+- raw:
+  - "kyu"
+  - "きゅ"
+- raw:
+  - "kyo"
+  - "きょ"
+- raw:
+  - "sha|sya"
+  - "しゃ"
+- raw:
+  - "shu|syu"
+  - "しゅ"
+- raw:
+  - "sho|syo"
+  - "しょ"
+- raw:
+  - "cha|tya"
+  - "ちゃ"
+- raw:
+  - "chu|tyu"
+  - "ちゅ"
+- raw:
+  - "cho|tyo"
+  - "ちょ"
+- raw:
+  - "nya"
+  - "にゃ"
+- raw:
+  - "nyu"
+  - "にゅ"
+- raw:
+  - "nyo"
+  - "にょ"
+- raw:
+  - "hya"
+  - "ひゃ"
+- raw:
+  - "hyu"
+  - "ひゅ"
+- raw:
+  - "hyo"
+  - "ひょ"
+- raw:
+  - "mya"
+  - "みゃ"
+- raw:
+  - "myu"
+  - "みゅ"
+- raw:
+  - "myo"
+  - "みょ"
+- raw:
+  - "rya"
+  - "りゃ"
+- raw:
+  - "ryu"
+  - "りゅ"
+- raw:
+  - "ryo"
+  - "りょ"
+- raw:
+  - "jja"
+  - "っじゃ"
+- raw:
+  - "jju"
+  - "っじゅ"
+- raw:
+  - "jjo"
+  - "っじょ"
+# dakuten and handakuten 3-letter
+- raw:
+  - "gya"
+  - "ぎゃ"
+- raw:
+  - "gyu"
+  - "ぎゅ"
+- raw:
+  - "gyo"
+  - "ぎょ"
+- raw:
+  - "bya"
+  - "びゃ"
+- raw:
+  - "byu"
+  - "びゅ"
+- raw:
+  - "byo"
+  - "びょ"
+- raw:
+  - "pya"
+  - "ぴゃ"
+- raw:
+  - "pyu"
+  - "ぴゅ"
+- raw:
+  - "pyo"
+  - "ぴょ"
+- raw:
+  - "zya"
+  - "じゃ"
+- raw:
+  - "zyu"
+  - "じゅ"
+- raw:
+  - "zyo"
+  - "じょ"
+- raw:
+  - "dya"
+  - "ぢゃ"
+- raw:
+  - "dyu"
+  - "ぢゅ"
+- raw:
+  - "dyo"
+  - "ぢょ"
+# passport hepburn 3-letter
+# REMOVED FOR INCOMPATIBILITY CONCERNS
+# sokuon 3-letter
+- raw:
+  - "kka"
+  - "っか"
+- raw:
+  - "kki"
+  - "っき"
+- raw:
+  - "kku"
+  - "っく"
+- raw:
+  - "kke"
+  - "っけ"
+- raw:
+  - "kko"
+  - "っこ"
+- raw:
+  - "ssa"
+  - "っさ"
+- raw:
+  - "ssi"
+  - "っし"
+- raw:
+  - "ssu"
+  - "っす"
+- raw:
+  - "sse"
+  - "っせ"
+- raw:
+  - "sso"
+  - "っそ"
+- raw:
+  - "tta"
+  - "った"
+- raw:
+  - "tti"
+  - "っち"
+- raw:
+  - "ttu"
+  - "っつ"
+- raw:
+  - "tte"
+  - "って"
+- raw:
+  - "tto"
+  - "っと"
+- raw:
+  - "hha"
+  - "っは"
+- raw:
+  - "hhi"
+  - "っひ"
+- raw:
+  - "ffu"
+  - "っふ"
+- raw:
+  - "hhe"
+  - "っへ"
+- raw:
+  - "hho"
+  - "っほ"
+- raw:
+  - "wwa"
+  - "わ"
+- raw:
+  - "wwo"
+  - "っを"
+#dakuon and handakuon souken 3-letters
+- raw:
+  - "gga"
+  - "っが"
+- raw:
+  - "ggi"
+  - "っぎ"
+- raw:
+  - "ggu"
+  - "っぐ"
+- raw:
+  - "gge"
+  - "っげ"
+- raw:
+  - "ggo"
+  - "っご"
+- raw:
+  - "zza"
+  - "っざ"
+- raw:
+  - "jji"
+  - "っじ"
+- raw:
+  - "zzu"
+  - "っず"
+- raw:
+  - "zze"
+  - "っぜ"
+- raw:
+  - "zzo"
+  - "っぞ"
+- raw:
+  - "dda"
+  - "っだ"
+- raw:
+  - "dde"
+  - "っで"
+- raw:
+  - "ddo"
+  - "っど"
+- raw:
+  - "bba"
+  - "っば"
+- raw:
+  - "bbi"
+  - "っび"
+- raw:
+  - "bbu"
+  - "っぶ"
+- raw:
+  - "bbe"
+  - "っべ"
+- raw:
+  - "bbo"
+  - "っぼ"
+- raw:
+  - "ppa"
+  - "っぱ"
+- raw:
+  - "ppi"
+  - "っぴ"
+- raw:
+  - "ppu"
+  - "っぷ"
+- raw:
+  - "ppe"
+  - "っぺ"
+- raw:
+  - "ppo"
+  - "っぽ"
+# gojuuonzu smol 3-letter
+- raw:
+  - "[xl]ka"
+  - "ヵ"
+- raw:
+  - "[xl]ke"
+  - "ヶ"
+- raw:
+  - "[xl]tu"
+  - "っ"
+- raw:
+  - "[xl]ya"
+  - "ゃ"
+- raw:
+  - "[xl]yu"
+  - "ゅ"
+- raw:
+  - "[xl]yo"
+  - "ょ"
+- raw:
+  - "[xl]wa"
+  - "ゎ"
+# gojuuonzu 2-letter
+- raw:
+  - "ka"
+  - "か"
+- raw:
+  - "ki"
+  - "き"
+- raw:
+  - "ku"
+  - "く"
+- raw:
+  - "ke"
+  - "け"
+- raw:
+  - "ko"
+  - "こ"
+- raw:
+  - "sa"
+  - "さ"
+- raw:
+  - "si"
+  - "し"
+- raw:
+  - "su"
+  - "す"
+- raw:
+  - "se"
+  - "せ"
+- raw:
+  - "so"
+  - "そ"
+- raw:
+  - "ta"
+  - "た"
+- raw:
+  - "ti"
+  - "ち"
+- raw:
+  - "tu"
+  - "つ"
+- raw:
+  - "te"
+  - "て"
+- raw:
+  - "to"
+  - "と"
+- raw:
+  - "na"
+  - "な"
+- raw:
+  - "ni"
+  - "に"
+- raw:
+  - "nu"
+  - "ぬ"
+- raw:
+  - "ne"
+  - "ね"
+- raw:
+  - "no"
+  - "の"
+- raw:
+  - "ha"
+  - "は"
+- raw:
+  - "hi"
+  - "ひ"
+- raw:
+  - "fu|hu"
+  - "ふ"
+- raw:
+  - "he"
+  - "へ"
+- raw:
+  - "ho"
+  - "ほ"
+- raw:
+  - "ma"
+  - "ま"
+- raw:
+  - "mi"
+  - "み"
+- raw:
+  - "mu"
+  - "む"
+- raw:
+  - "me"
+  - "め"
+- raw:
+  - "mo"
+  - "も"
+- raw:
+  - "ya"
+  - "や"
+- raw:
+  - "yu"
+  - "ゆ"
+- raw:
+  - "yo"
+  - "よ"
+- raw:
+  - "ra"
+  - "ら"
+- raw:
+  - "ri"
+  - "り"
+- raw:
+  - "ru"
+  - "る"
+- raw:
+  - "re"
+  - "れ"
+- raw:
+  - "ro"
+  - "ろ"
+- raw:
+  - "wa"
+  - "わ"
+- raw:
+  - "wo"
+  - "を"
+# dakuon and handakuon 2-letter
+- raw:
+  - "ga"
+  - "が"
+- raw:
+  - "gi"
+  - "ぎ"
+- raw:
+  - "gu"
+  - "ぐ"
+- raw:
+  - "ge"
+  - "げ"
+- raw:
+  - "go"
+  - "ご"
+- raw:
+  - "za"
+  - "ざ"
+- raw:
+  - "ji|zi"
+  - "じ"
+- raw:
+  - "zu"
+  - "ず"
+- raw:
+  - "ze"
+  - "ぜ"
+- raw:
+  - "zo"
+  - "ぞ"
+- raw:
+  - "da"
+  - "だ"
+- raw:
+  - "di"
+  - "ぢ"
+- raw:
+  - "zu|du"
+  - "づ"
+- raw:
+  - "de"
+  - "で"
+- raw:
+  - "do"
+  - "ど"
+- raw:
+  - "ba"
+  - "ば"
+- raw:
+  - "bi"
+  - "び"
+- raw:
+  - "bu"
+  - "ぶ"
+- raw:
+  - "be"
+  - "べ"
+- raw:
+  - "bo"
+  - "ぼ"
+- raw:
+  - "pa"
+  - "ぱ"
+- raw:
+  - "pi"
+  - "ぴ"
+- raw:
+  - "pu"
+  - "ぷ"
+- raw:
+  - "pe"
+  - "ぺ"
+- raw:
+  - "po"
+  - "ぽ"
+#youon 2-letter
+- raw:
+  - "ja"
+  - "じゃ"
+- raw:
+  - "ju"
+  - "じゅ"
+- raw:
+  - "jo"
+  - "じょ"
+# ????? 2 - letter
+- raw:
+  - "wi"
+  - "うぃ"
+- raw:
+  - "we"
+  - "うぇ"
+# gojuuonzu smol 2-letter
+- raw:
+  - "[xl]a"
+  - "ぁ"
+- raw:
+  - "[xl]i"
+  - "ぃ"
+- raw:
+  - "[xl]u"
+  - "ぅ"
+- raw:
+  - "[xl]e"
+  - "ぇ"
+- raw:
+  - "[xl]o"
+  - "ぉ"
+- raw:
+  - "[xl]n"
+  - "ん"
+# gojuuonzu 1-letter
+- raw:
+  - "a"
+  - "あ"
+- raw:
+  - "i"
+  - "い"
+- raw:
+  - "u"
+  - "う"
+- raw:
+  - "e"
+  - "え"
+- raw:
+  - "o"
+  - "お"
+- raw:
+  - "n"
+  - "ん"

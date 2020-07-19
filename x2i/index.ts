@@ -68,6 +68,10 @@ const matchType: { [key: string]: IMatchInstructions } = {
     join: (_, match) => `- ${match}`,
     keys: readKeys("./x2i/dictionaries/i-keys.yaml"),
   },
+  hi: {
+    join: (_, match) => `- ${match}`,
+    keys: readKeys("./x2i/dictionaries/hi-keys.yaml"),
+  },
 };
 
 /**
@@ -153,7 +157,8 @@ export default function x2i(content: string) {
   OuterXRegExp.forEach(content, regex, match => {
     const parts = match.slice(2, 6);
     if (parts.length === 4) {
-      const [k, l, m, r] = parts;
+      var [k, l, m, r] = parts;
+      if (k === "hi") { m = m.replace(/\s/g, '').toLowerCase() }
       const converted = force(k, l, m, r); // eg x, [, text, ]
 
       if (converted) {
