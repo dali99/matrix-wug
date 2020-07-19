@@ -225,6 +225,8 @@
 - raw:
   - "dyo"
   - "ぢょ"
+# passport hepburn 3-letter
+# REMOVED FOR INCOMPATIBILITY CONCERNS
 # sokuon 3-letter
 - raw:
   - "kka"
@@ -362,7 +364,7 @@
 - raw:
   - "ppo"
   - "っぽ"
-# gojuuonzu 3-letter
+# gojuuonzu smol 3-letter
 - raw:
   - "[xl]ka"
   - "ヵ"
@@ -636,3 +638,17 @@
 - raw:
   - "n"
   - "ん"
+# long vowel 1-letter hepburn
+# NOT GOOD
+#- raw:
+#  - "ā|â"
+#  - "ああ"
+#- raw:
+#  - "ū|û"
+#  - "うう"
+#- raw:
+#  - "ē|ê"
+#  - "ええ"
+#- raw:
+#  - "ō|ô"
+#  - "おお"
