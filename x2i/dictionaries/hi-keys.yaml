@@ -4,6 +4,23 @@
   - "n'"
   - "ん"
 
+# hepburn long vowels
+- raw:
+  - "[āâ]"
+  - "aa"
+- raw:
+  - "[ūû]"
+  - "uu"
+- raw:
+  - "[ūû]"
+  - "uu"
+- raw:
+  - "[ēê]"
+  - "ee"
+- raw:
+  - "[ōô]"
+  - "oo"
+
 # gojuuonzu smol 4-letter
 - raw:
   - "[xl]tsu"
@@ -638,17 +655,3 @@
 - raw:
   - "n"
   - "ん"
-# long vowel 1-letter hepburn
-# NOT GOOD
-#- raw:
-#  - "ā|â"
-#  - "ああ"
-#- raw:
-#  - "ū|û"
-#  - "うう"
-#- raw:
-#  - "ē|ê"
-#  - "ええ"
-#- raw:
-#  - "ō|ô"
-#  - "おお"
