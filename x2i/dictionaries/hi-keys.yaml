@@ -21,6 +21,17 @@
   - "[ōô]"
   - "oo"
 
+# youon souken 5-letter
+- raw:
+  - "cchya"
+  - "っちゃ"
+- raw:
+  - "cchyu"
+  - "っちゅ"
+- raw:
+  - "cchuo"
+  - "っちょ"
+
 # gojuuonzu smol 4-letter
 - raw:
   - "[xl]tsu"
@@ -29,6 +40,9 @@
 - raw:
   - "chya"
   - "ちゃ"
+- raw:
+  - "chyu"
+  - "ちゅ"
 # gojuuonzu souken 4-letter
 - raw:
   - "sshi"
